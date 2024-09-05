@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Registration </title>
+	<style>
+        body{
+            background-color:rgb(255, 179, 79);
+        }
+
+        .Next {
+                font-size: large;
+
+            }
+          
+    </style>
+
+</head>
+<body>
+<h1>Welcome to Employee Registration Page</h1>
+<br>
+
+<form method="post" autocomplete="on">
+    <label>Employee Name :</label>
+<br>
+    <input type="text"/>
+    <br>
+    <label>Registered Number:</label><br>
+    <input type="number" name="Reg_number"/>
+    <br>
+
+    <label for="Role">Your Role</label><br>
+   
+    <select id="Role">
+                <option value="technician">Technician</option>
+                <option value="reception">Receptionist</option>
+                <option value="PA">Personal Assistant</option>
+                <option value="Chef">Chef</option>
+                <option value="HR">Human Resources</option>
+                
+    </select>
+    <br>
+    <br>
+
+    <label>Email:</label><br>
+    <input type="email" name="Email"/>
+    <br>
+    <label>Id number:</label><br>
+    <input type="number" name="Id"/>
+    <br>
+
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="Date"/>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" />Male
+    <input type="radio" name="gender" value="female"/>Female
+
+    <br>
+    <label for="country">Country</label><br>
+    <input name="country" list ="countries">
+    <datalist id="countries">
+         <option value="Australia">Australia</option>
+
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Russia">Russia</option>
+                <option value="USA">United States</option>
+                <option value="UK">United Kingdom</option>
+
+    </datalist>
+    <br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"/><br>
+
+
+
+    <br>
+    
+
+    <button>submit</button>
+</form>
+
+
+<center><a href="image.html"><button class="Next">Go Back</button></a>
+    <a href="first_page.html"><button class="Next">Next Page </button></a></center>
+
+
+
+</body>
+
+		
+
+</html>

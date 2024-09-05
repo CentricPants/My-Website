@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Table Tags</title>
+        <style>
+            .mytable {
+                width: 250px;
+                height: 20px;
+                padding:2%;
+                margin: 50px;
+                background-color: rgb(32, 236, 255);
+                border: solid;
+
+                
+            }
+            tr, th,td{
+                border: solid;
+            }
+            .First_row{
+                background-color:rgb(50, 163, 255);
+                width: 6px;
+                height: 40px;
+            }
+            .First_row:hover{
+
+                background-color: aquamarine;
+                transition: background-color 2s ease-in-out;            }
+
+            .Next {
+                font-size: large;
+
+            }
+            .money{
+                color: rgba(17, 83, 17, 0.822)
+            }
+            body{
+                background-color: rgb(249, 240, 230);
+                
+            }
+           td:hover{
+
+                background-color: rgb(255, 127, 127);
+                transition: background-color 200ms ease-in-out;            }
+            
+          
+        </style>
+
+    </head>
+
+    <body>
+        
+
+            <center><h1 style="font-family:Arial;">Here is the Table</h1></center>
+   
+        <center><table class="mytable">
+           <thead style="border-color:brown; padding-bottom:3%; margin: 30px;">
+            <caption>A Random Bank Table</caption>
+                <tr class="First_row">
+                    <th colspan="2">Name</th>
+                    <th >Age</th>
+
+                    <th>Citizenship</th>
+                    <th>Money</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    
+                    <td rowspan="2">Ahmed </td>
+                    <td rowspan="2">Tahir</td>
+                    <td rowspan="2">20</td>
+                    <td>Pakistani</td>
+                    <td rowspan="2" class="money">500$</td>
+
+
+                </tr>
+                <tr>
+                    
+                    <td>Saudi</td>
+
+
+                </tr>
+                <tr>
+                   
+                    <td rowspan="2">Harvey</td>
+                    <td rowspan="2">Specter</td>
+                    <td rowspan="2">25</td>
+                    <td>American</td>
+                    <td rowspan="2" class="money">400$</td>
+                    
+                </tr>
+                <tr>
+                    <td>Canadian</td>
+
+                </tr>
+                
+                
+
+           
+            </tbody>
+        </table></center>
+        <br>
+        <br>
+        <center><p style="font-family:Arial;">Click the button to go to the next web page which defines all text formatting tags of HTML in tabular
+            format. </p></center>
+       <center><a href="list.html"><button class="Next">Next Page</button></a></center>
+
+    </body>
+
+</html>
